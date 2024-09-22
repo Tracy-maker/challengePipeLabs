@@ -1,0 +1,19 @@
+# Ignore environment variables file
+.env
+
+# Other node-related ignore files
+node_modules/
+dist/
+build/
+
+# Ignore any logs
+*.log
+
+# Optional: Ignore IDE/editor files
+.vscode/
+*.sublime-workspace
+.idea/
+.DS_Store
+
+# Optional: Ignore OS specific files
+Thumbs.db
