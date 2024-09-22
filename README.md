@@ -36,6 +36,16 @@ For MVP, use in-memory or file storage. For production, consider databases like 
    API_URL=https://abc-fashion-bzwn2mw5ya-km.a.run.app/
    API_USERNAME=pipelabs
    API_PASSWORD=h04Kp5NNm4qN
+
+   //Environment configuration
+   EMAIL_HOST=smtp.yourprovider.com
+   EMAIL_PORT=465
+   EMAIL_SECURE=true
+   EMAIL_USER=your-email@domain.com
+   EMAIL_PASS=your-password
+   EMAIL_FROM=your-email@domain.com
+   EMAIL_TO=recipient@domain.com
+
    ```
 3. Start server: `npm start` (Runs on `http://localhost:4000`)
 
